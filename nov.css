@@ -1,0 +1,175 @@
+body {
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        font-size: larger;
+        background-image: url("russia_images/russia.bg_alt3.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+        margin: 0 70px;
+        font-weight: 800;
+    }
+
+    h1 {
+        font-size: 42pt;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header_style {
+        background-image: url("russia_images/novos_main.jpg");
+        background-size: cover;
+        background-position: 0 -110px;
+        height: 325px;
+        text-shadow: 1px 1px 1px;
+        border: 1px solid black;
+        margin-top: 20px;
+    }
+
+    .header_style h1 {
+        line-height: 0.4em;
+        text-transform: uppercase;
+    }
+
+    div.header_style p {
+        font-size: 18pt;
+        letter-spacing: 0.1em;
+        line-height: 1.5em;        
+    }
+
+    h2 {
+        font-size: 32pt;
+        margin: 0;
+    }
+
+    p {
+        line-height: 1.6em;
+    }
+
+    .nav_bar {
+        width: 100%;
+        font-size: 18pt;
+        background-color: #152441; 
+        margin-top: 10px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .button_style {
+        width: 180px;
+        height: 100px;
+        background-color: #152441;
+        box-shadow: 3px 3px 3px black;
+        text-shadow: 2px 2px 8px;
+        color: red;
+        text-transform: uppercase;
+        font-size: 18pt;
+        border-radius: 25px;
+        cursor: pointer;
+        clear: both;
+        margin: auto;
+    }
+
+    .footer {
+        font-size: 18pt;
+        font-family: 'Annie Use Your Telescope', cursive;
+        width: 100%;
+        clear: both;
+        height: 50px;
+        background-image: url("russia_images/russian_bear.jpg");
+        background-position: -25px -58px;
+        margin-top: 30px;
+        line-height: 50px;
+        color: lavender;
+    }
+
+    li {
+        display: inline;
+        padding-right: 50px;
+        list-style-type: none;
+    }
+
+    a {
+        padding:19px;
+    }
+
+    a:link {
+        color: red;
+        text-shadow: 2px 2px 4px;
+    }
+
+    a:visited {
+        color: blue;
+    }
+
+    a:hover {
+        padding: 18px;
+        border: 1px solid lightsteelblue;
+        border-radius: 80px 15px;
+    }
+
+    a:active {
+        color: rebeccapurple;
+    }
+
+    .image_sizing {
+        height: 320px;
+        width: 480px;
+        margin-right: 136px;
+        margin-bottom: 20px;
+        float: right;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+
+    .image2_sizing {
+        height: 350px;
+        width: 480px;
+        border: 1px solid black;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        background-color: lightslategray ;
+        margin: auto;
+        padding: 5px;
+        font-size: large;
+        border-collapse: collapse;
+    }
+
+    table th {
+        background-color: blue;
+        color: yellow;
+    }
+
+    table td {
+        background-color: red;
+        color: yellow;
+    }
+
+    caption {   
+        margin-top: 5px;
+        caption-side: top;
+        background-color: whitesmoke;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        color: black;
+    }
+
+    .clearance {
+        clear: both;
+    }
+
+    .gif {
+        width: 100px;
+        height: 60px;
+        float: left;
+        padding: 10px;
+    }
+
+    .nav_bar > a {
+        all: unset;
+        cursor: pointer;
+    }

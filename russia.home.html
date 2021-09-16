@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="russia_hp_styling.css">
+    <script src="russia_hp.js"></script>
+
+	<title>Russia: Home</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <div class="header_banner">
+        <h1>Russia</h1>
+    </div>
+             
+    <div class=nav_bar>
+        <a href="russia.home.html"><img src="russia_images\russia_logo_flag.gif" alt="Animated Russian flag acting as link to homepage" class="gif" /></a>
+        <ul>
+            <li>       
+            <a href="moscow.html" >Moscow</a></li>
+            <li><a href="irkutsk.html" >Irkutsk</a></li>
+            <li><a href="krasnodar.html" >Krasnodar</a></li>
+            <li><a href="vladivostok.html" >Vladivostok</a></li>
+            <li><a href="novosibirsk.html" >Novosibirsk</a></li>
+        </ul>
+    </div>
+
+    <table title="Russia might surprise you...">
+        <caption>Russia Statistics & Demographics</caption>
+        <tr>
+            <th>Population</th>
+            <th>Size by Area</th>
+            <th>Turnover (GDP)</th>
+            <th>Currency</th>
+        </tr>
+        <tr>
+            <td>146.79 million</td>
+            <td>17,125,200 km<sup>2</sup></td>
+            <td>$1.578 trillion</td>
+            <td>Russian ruble (₽) (RUB)</td>
+        </tr>
+    </table><br/>
+    
+    <h2>11.5% of the World's Land Surface, Begging for Exploration</h2>
+    <p>Losum dolor sit amet consectetur adipisicing elit. Aut corporis maiores earum asperiores ad, rerum placeat officia hic distinctio voluptas voluptates consectetur vel. Reiciendis maxime ab corporis rerum atque fuga.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos dicta veritatis nemo fugit, magnam animi fuga eligendi quae deleniti quisquam distinctio facilis labore est eum sequi saepe mollitia nostrum incidunt.
+    </p>
+    
+    <h2>A Vast and Mysterious Country</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam tempora dignissimos et veniam atque voluptate nemo quam. Ex deserunt ea, ipsam ad voluptates qui cumque nesciunt quam, iure quas deleniti.
+    </p>
+
+    <div>
+        <img src="russia_images\winter_church.jfif" alt="Image of snow-dusted Russian church in winter" title="Architecture to die for" class="image_style1" />
+    </div>
+
+    <div class="text_content">
+        <h2>Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, tempora assumenda. Repellat numquam voluptas asperiores natus nisi blanditiis quasi placeat voluptatibus dignissimos officia necessitatibus, mollitia, sed amet, neque autem quidem?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit nulla eaque perspiciatis, magni minus eum dolore perferendis illum dolor quo exercitationem reiciendis dignissimos illo qui voluptatibus assumenda molestiae quasi adipisci.
+        </p>
+    </div>
+    
+    <div>
+        <img src="russia_images\hpage3.jpg" alt="Image of train passing through the green valleys of Mongolia" title="Your trans-siberian journey will take you through Mongolia" class="image_style3" />
+    </div>
+    <br/><br/>
+
+    <!-- USING THE BREAK TAG ABOVE ACTUALLY HELPS CENTRE THE WRAPPED TEXT WITH IMAGE
+    
+    REMEMBER THAT TEXT YOU WANT TO WRAP IS PLACED UNDER FLOATED ELEMENT, AS SPACE IS FILLED BY SUCKING UPWARDS
+
+    -->
+
+    <div>
+        <h2>The Trans-Siberian Railway</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto odit nisi ipsam cumque molestias omnis adipisci iste aliquam dolorum, libero hic, sed eius nobis. Reiciendis hic ut facilis nisi porro.
+        </p>
+    </div>
+
+    <div>
+         <img src="russia_images\hpage4.jpeg" alt="Image of Siberian Tiger barrelling through snow" title="The once endangered Siberian Tiger is now resurgent, thanks especially to efforts in North-Eastern China" class="image_style4 clearance" />
+    </div><br/>
+
+    <div class="text_left_clearance">
+        <h2>Nature and Terrain: Bewildering and Beautiful</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit asperiores unde molestiae, sequi officia cum ullam numquam, commodi voluptatum voluptas vel deserunt, sed ab? Fugit magnam officiis in quibusdam deleniti!
+        </p>
+    </div><br/><br/>
+
+    <h3 class="promovid_heading">
+        <mark>Promotional Video</mark>
+    </h3>
+
+     <!-- NOTE: PADDING DOES NOT AFFECT TEXT IN 'MARK' TAGS -->
+
+    <div class="promo_vid">
+     <iframe width="500" height="300" src="https://www.youtube.com/embed/naf4DNAZNaU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="inline_vid" allowfullscreen></iframe>
+    </div>
+    <br/><br/>
+
+    <div>
+        <button type="button" onclick="showMap();" class="button_style">Where is Russia?</button>
+    </div><br/>
+
+    <div id="geodisplay"></div>
+    <br/>
+
+    <div>
+        <button onclick="getLocation()" class="button_style">Distance to Russia</button>
+    </div><br/>
+
+    <input type="radio" onclick="hide_location()" name="toggle" value="Hide location">Hide your location
+    <input type="radio" onclick="show_location()" name="toggle" value="Show location">Show your location
+    <br/>
+
+    <footer class="footer">Copyright &copy; Ryan Hadley &#128526;</footer>
+
+</body>
+
+</html>
+

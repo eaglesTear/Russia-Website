@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="mos.css">
+    <script src="mos.js"></script>
+
+	<title>Russia: Moscow</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <div class=nav_bar>
+        <a href="russia.home.html"><img src="russia_images\russia_logo_flag.gif" class="gif" /></a>
+        <ul>
+            <li><a href="russia.home.html" >Home</a></li>
+            <li><a href="irkutsk.html" >Irkutsk</a></li>
+            <li><a href="vladivostok.html" >Vladivostok</a></li>
+            <li><a href="krasnodar.html" >Krasnodar</a></li>
+            <li><a href="novosibirsk.html" >Novosibirsk</a></li>
+        </ul>
+    </div>
+
+    <div class="header_banner">
+        <h1>Moscow</h1>
+        <p><i>A Majestic City</i></p>
+    </div><br/>
+
+    <table title="Moscow is the biggest city in Russia, and its most grandiose">
+        <caption>Moscow Statistics & Demographics</caption>
+        <tr>
+            <th>Population</th>
+            <th>Size by Area</th>
+            <th>Turnover</th>
+            <th>Twin City</th>
+        </tr>
+        <tr>
+            <td>12,506,468</td>
+            <td>2,511 km<sup>2</sup></td>
+            <td>$270 billion</td>
+            <td>London, UK</td>
+        </tr>
+    </table><br/>
+
+    <div class="text_content">
+        <h2>Downtown Harbours a Glimpse of the Future</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, tempora assumenda. Repellat numquam voluptas asperiores natus nisi blanditiis quasi placeat voluptatibus dignissimos officia necessitatibus, mollitia, sed amet, neque autem quidem?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit nulla eaque perspiciatis, magni minus eum dolore perferendis illum dolor quo exercitationem reiciendis dignissimos illo qui voluptatibus assumenda molestiae quasi adipisci.
+        </p>
+    </div>
+
+    <div>
+        <img src="russia_images\snowy_moscow.jpg" alt="Snowy Moscow street" title="Moscow gets pretty cold in winter" class="image_style" />
+    </div><br/>
+    
+    <h2>Romance in the Winter Nights</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, asperiores iste facilis sapiente quo neque nisi sit, dolor numquam, excepturi nobis fugiat natus. Sit labore quos provident fuga eum quia.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate dolor dolorum, laudantium adipisci vitae natus aut exercitationem. Natus recusandae alias architecto ex. Aliquid consectetur atque vel temporibus nostrum repellendus.
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, natus optio. Quo iusto necessitatibus placeat laboriosam magni nesciunt. Omnis sed vitae asperiores modi molestias, minima eligendi reprehenderit iusto cum. Voluptatibus.
+    </p>
+
+    <div>
+        <button type="button" onclick="locationMoscow();" class="button_style">Where is Moscow?</button>
+    </div><br/>
+
+    <div id="geodisplay"></div>
+    <br/>
+
+    <div>
+        <button onclick="getLocation()" class="button_style">Distance to Moscow</button>
+    </div><br/>
+
+    <input type="radio" onclick="hide_location()" name="toggle" value="Hide location">Hide your location
+    <input type="radio" onclick="show_location()" name="toggle" value="Show location">Show your location
+    <br/>
+
+   <footer class="footer">Copyright &copy; Ryan Hadley &#128526;</footer>
+
+</body>
+
+</html>
+

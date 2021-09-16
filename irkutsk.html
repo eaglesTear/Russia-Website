@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="irk.css">
+    <script src="irk.js"></script>
+
+	<title>Russia: Irkutsk</title>
+
+    <link href = "https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Ibarra+Real+Nova&display=swap" rel = "stylesheet"> 
+
+</head>
+
+<body>
+
+    <div class=nav_bar>
+        <a href="russia.home.html"><img src="russia_images\russia_logo_flag.gif" alt="Animated Russian flag acting as link to homepage" class="gif" /></a>
+        <ul>
+            <li><a href = "russia.home.html" >Home</a></li>
+            <li><a href = "krasnodar.html" >Krasnodar</a></li>
+            <li><a href = "novosibirsk.html" >Novosibirsk</a></li>
+            <li><a href = "moscow.html" >Moscow</a></li>
+            <li><a href = "vladivostok.html" >Vladivostok</a></li>
+        </ul>
+    </div>
+
+    <div class="header_banner">
+        <h1>Irkutsk</h1>
+        <p><i>A Hidden Gem</i></p>
+    </div><br/>
+
+    <table title="Irkutsk is tucked away in central Russia">
+        <caption>Irkutsk Statistics & Demographics</caption>
+        <tr>
+            <th>Population</th>
+            <th>Size by Area</th>
+            <th>Turnover</th>
+            <th>Twin City</th>
+        </tr>
+        <tr>
+            <td>623,869</td>
+            <td>277 km<sup>2</sup></td>
+            <td>Unknown. Famous for Sukhoi fighter manufacturing</td>
+            <td>Ulan Bator, Mongolia</td>
+        </tr>
+    </table><br/>
+
+    <h2>The Russian Heartland</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum maxime nesciunt similique officia beatae sit architecto quis eius distinctio quos, perferendis voluptatem rem suscipit. Quo enim officiis aperiam. Mollitia, quidem.
+    <br>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis molestiae hic nisi, amet inventore tempora culpa in beatae quam non nobis fugiat, quia eum laboriosam labore necessitatibus ut sed? Corporis.
+    </p>
+
+    <!-- WHEN APPLYING CLASSES, REMEMBER TO APPLY THEM TO ACTUAL ELEMENTS SPECIFICALLY, NOT CONTAINERS, AS IN THE IMG BELOW -->
+
+    <div>
+        <img src = "russia_images\irk2.jpg" alt = "Snow-dusted church in Irkutsk" title = "Irkutsk is beautifully and pleasantly warm in spring" class="image_spec1" />   
+    </div><br/>
+    
+    <div class="text_content">
+        <h2>Discover Culture in the Heart of the Bear</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quod minima culpa in, explicabo corrupti nam nobis non quos exercitationem, consequuntur itaque officiis laboriosam quasi earum! Repellendus nemo sint nobis.  
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum rem maiores odio consectetur, ratione tenetur, repellendus, aperiam ipsum necessitatibus vel tempora culpa porro! Fugiat, fuga id ut porro maiores atque.
+        </p>
+    </div>
+
+    <div>
+        <img src = "russia_images\irk1.jpg" alt= "Prince Vladimir, Irkutsk" title = "Postcard pretty" class="image_spec2" />
+    </div><br/>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil itaque ea, error dolores architecto consequatur cumque, sit illo officiis sint iusto tempore! Nemo, blanditiis in fuga dolores nobis.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque commodi eius, quibusdam praesentium molestiae perspiciatis possimus adipisci architecto illum hic dicta dolore, ex optio mollitia molestias similique corporis culpa sed?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, alias voluptate. Ex, exercitationem facere quidem ad, mollitia sunt eveniet molestiae repellendus quibusdam laborum quaerat possimus, blanditiis aliquid vitae quas similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque culpa eum, soluta non, incidunt, delectus repudiandae asperiores maiores aspernatur quae qui sunt magni a ipsum ducimus vel blanditiis illum.
+        </p>
+    </div>
+
+    <div>
+        <button type="button" onclick="locationIrkutsk();" class="button_style">Irkutsk Map</button>
+    </div><br/>
+
+    <div id="geodisplay"></div>
+    <br/>
+
+    <div>
+        <button onclick="getLocation()" class="button_style">Distance to Irkutsk</button>
+    </div><br/>
+
+    <input type="radio" onclick="hide_location()" name="toggle" value="Hide location">Hide your location
+    <input type="radio" onclick="show_location()" name="toggle" value="Show location">Show your location
+    <br/>
+    
+    <footer class="footer">Copyright &copy; Ryan Hadley &#128526;</footer>
+
+</body>
+
+</html>
+

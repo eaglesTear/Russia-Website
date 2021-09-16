@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="vlad.css">
+    <script src="vlad.js"></script>
+
+	<title>Russia: Vladivostok</title>
+
+    <link href = "https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Ibarra+Real+Nova&display=swap" rel = "stylesheet"> 
+
+</head>
+
+<body>
+
+    <div class=nav_bar>
+        <a href="russia.home.html"><img src="russia_images\russia_logo_flag.gif" alt="Animated Russian flag acting as link to homepage" class="gif" /></a>
+        <ul>
+            <li><a href = "russia.home.html" >Home</a></li>
+            <li><a href = "krasnodar.html" >Krasnodar</a></li>
+            <li><a href = "novosibirsk.html" >Novosibirsk</a></li>
+            <li><a href = "moscow.html" >Moscow</a></li>
+            <li><a href = "irkutsk.html" >Irkutsk</a></li>
+        </ul>
+    </div>
+
+    <div class="header_banner">
+        <h1>Vladivostok</h1>
+        <p><i>Gateway to the East</i></p>
+    </div><br/>
+
+    <table title="Vladivostok has some interesting statistics...">
+        <caption>Vladivostok Statistics & Demographics</caption>
+        <tr>
+            <th>Population</th>
+            <th>Size by Area</th>
+            <th>Port Turnover</th>
+            <th>Twin City</th>
+        </tr>
+        <tr>
+            <td>604,901</td>
+            <td>331.16 km<sup>2</sup></td>
+            <td>$275 million</td>
+            <td>Hakodate, Japan</td>
+        </tr>
+    </table>
+
+    <h2>The 'Ruler of the East'</h2>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consequatur nobis doloribus minima vel. Sed saepe magni iste aut deleniti eaque eligendi, facilis distinctio doloribus suscipit accusamus dicta debitis eum.
+    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum, sunt ipsum magni et numquam officia ducimus officiis omnis saepe laudantium perspiciatis ullam tempore iusto commodi iure adipisci fuga rerum?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laboriosam qui neque omnis! Fuga, aliquid ut repellendus dolore repudiandae deleniti facilis aut iste officiis tempore alias excepturi porro. Distinctio, ea!
+    </p>
+
+    <div>
+        <img src = "russia_images\vlad2.jpg" alt = "Overview of the Zolotoy Port Bridge with traffic" title = "The Zolotoy Port Bridge spans across the Golden Horn Bay" class = "image_rsz1" />   
+    </div><br/>
+
+    <div class="text_content">
+        <h2>Discover Culture in the Heart of the Bear</h2>  
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quod minima culpa in, explicabo corrupti nam nobis non quos exercitationem, consequuntur itaque officiis laboriosam quasi earum! Repellendus nemo sint nobis.  
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum rem maiores odio consectetur, ratione tenetur, repellendus, aperiam ipsum necessitatibus vel tempora culpa porro! Fugiat, fuga id ut porro maiores atque.
+        </p>
+    </div>
+
+    <div>
+        <img src = "russia_images\vlad3.jpg" alt= "Image of a street in Vladivostok's Old Town" title = "Quaint buildings line the streets of Vladivostok's Old Town" class = "image_rsz2" />
+    </div><br/>
+
+    <div>
+        <h2>The Look of the Past Lives Today</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse molestiae ipsum repellendus quis, illo et sunt, odio quod quidem, eius voluptate odit? Dolorem a in totam nihil, ex quos tenetur?
+        <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam tempora debitis, odit ut fugit dolorem repudiandae voluptas earum a nobis excepturi aliquam doloremque, quae est cum, doloribus ratione commodi?
+        </p>
+    </div>
+
+    <div>
+        <img src = "russia_images\vlad4.jpg" alt = "Close-up of the buildings in Vladivostok's Old Town" title = "Seen up-close, the retro-communist architecture still holds much charm" class = "image_rsz2" />
+    </div><br/>
+
+    <div>
+        <button type="button" onclick="locationVlad();" class="button_style">Vladivostok Map</button>
+    </div><br/>
+
+    <div id="geodisplay"></div>
+
+    <div>
+        <button onclick="getLocation()" class="button_style">Distance to Vladivostok</button>
+    </div><br/>
+
+    <input type="radio" onclick="hide_location()" name="toggle" value="Hide location">Hide your location
+    <input type="radio" onclick="show_location()" name="toggle" value="Show location">Show your location
+    <br/>
+    
+    <footer class="footer">Copyright &copy; Ryan Hadley &#128526;</footer>
+
+</body>
+
+</html>
